@@ -12,9 +12,23 @@ public class Koi : MonoBehaviour
     private Vector2 movement;
     private float timeLeft;
 
+    private bool move;
+
+    private int counter;
+    public int numoffish; 
+
+    //SOUND 
+    public AudioSource clicksound;
+
+
+    public Vector3 position; 
+
+
     // Use this for initialization
     void Start()
     {
+        counter = 0; 
+        move = true; 
         rb = GetComponent<Rigidbody2D>();
 
     }
@@ -22,17 +36,27 @@ public class Koi : MonoBehaviour
 
     void Update()
     {
-        timeLeft -= Time.deltaTime;
-        if (timeLeft <= 0)
+        if (move == true)
         {
-            movement = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
-            timeLeft += accelerationTime;
-        }
-    }
 
+            timeLeft -= Time.deltaTime;
+            if (timeLeft <= 0)
+            {
+                movement = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
+                timeLeft += accelerationTime;
+            }
+
+        }
+       
+    }
+    
     void FixedUpdate()
     {
-        rb.AddForce(movement * maxSpeed);
+        if (move == true) {
+
+            rb.AddForce(movement * maxSpeed);
+        }
+           
     }
 
     //For click and drag 
@@ -46,8 +70,37 @@ public class Koi : MonoBehaviour
     void OnMouseOver()
     {
         if (Input.GetMouseButtonDown(0)){
-            // Whatever you want it to do.
-            Destroy(gameObject);
+            counter++;
+            if (counter < numoffish)
+            {
+                // Whatever you want it to do.
+                //SOUND 
+                clicksound.Play();
+
+                // gameObjectToMove.transform.position = new Vector3(x, y, z);
+                //gameObject.transform.position = new Vector3(7, 1, 0); //This works! 
+                gameObject.transform.position = position;
+                move = false;
+
+                //DESTROY 
+                // Destroy(gameObject);
+
+
+            }
+            else if (counter >= numoffish) {
+                Debug.Log("Got all the fish");
+                //GetComponent<Rigidbody>().enabled = false;
+                //  Rigidbody rigidbody = GetComponent<Rigidbody>();
+
+                //  GetComponent<Rigidbody>().enabled = false;
+                //  rigidbody.enabled = false;
+
+                rb.isKinematic = true;
+                /*
+                Rigidbody2D rigidbody = GetComponent<Rigidbody2D>();
+                rigidbody.isKinematic = true; */
+            }
+
         }
     }
 

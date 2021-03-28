@@ -26,10 +26,26 @@ public class HealthBar : MonoBehaviour
         slider.value = health; 
     }
 
+    //NEW 
+    public int currenthealth;
+    public HealthBar HealthBar1;
+
+    void TakeDamage(int Damage)
+    {
+        currenthealth = currenthealth - Damage;
+        HealthBar1.sethealth(currenthealth);
+    }
+
+
 
     // Update is called once per frame
-  //  void Update()
-   // {
-        
-  //  }
+     void Update()
+     {
+        TakeDamage(1);
+        if (currenthealth <= 0) {
+            Debug.Log("Health is zero");
+
+        }
+
+    }
 }

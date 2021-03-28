@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class WaterColor : MonoBehaviour
 {
+    public AudioSource clicksound; 
     SpriteRenderer rend; 
     // Start is called before the first frame update
     void Start()
     {
-        rend = GetComponent<SpriteRenderer>(); 
+        rend = GetComponent<SpriteRenderer>();
+       
     }
 
     IEnumerator FadeOut() {
@@ -20,6 +22,7 @@ public class WaterColor : MonoBehaviour
         }
     }
     public void startFading() {
+        clicksound.Play();
         StartCoroutine("FadeOut"); 
     }
     // Update is called once per frame
