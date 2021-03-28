@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/katie/Documents/GitHub/CleanFishTank/CleanFishTank
+C:/Users/Emily/OneDrive/Documents/Git/CleanFishTank/CleanFishTank
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61244
-Successfully changed project path to: C:/Users/katie/Documents/GitHub/CleanFishTank/CleanFishTank
-C:/Users/katie/Documents/GitHub/CleanFishTank/CleanFishTank
+51965
+Successfully changed project path to: C:/Users/Emily/OneDrive/Documents/Git/CleanFishTank/CleanFishTank
+C:/Users/Emily/OneDrive/Documents/Git/CleanFishTank/CleanFishTank
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.24 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 35.10 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/katie/Documents/GitHub/CleanFishTank/CleanFishTank/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Emily/OneDrive/Documents/Git/CleanFishTank/CleanFishTank/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,80 +35,84 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001834 seconds.
+Registered in 0.002728 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 37.49 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 35.01 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.119 seconds
+- Completed reload, in  1.286 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000922 seconds.
+Registered in 0.001346 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 34.44 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 32.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.984 seconds
+- Completed reload, in  0.943 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1790 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 83.7 MB.
 System memory in use after: 83.7 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2230.
-Total: 2.150200 ms (FindLiveObjects: 0.179100 ms CreateObjectMapping: 0.150900 ms MarkObjects: 1.710100 ms  DeleteObjects: 0.109000 ms)
+Total: 2.188100 ms (FindLiveObjects: 0.202000 ms CreateObjectMapping: 0.086700 ms MarkObjects: 1.803200 ms  DeleteObjects: 0.095400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/koifishorange.png
-  artifactKey: Guid(7528927c64e50aa4fb8431ea352b0451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/koifishorange.png using Guid(7528927c64e50aa4fb8431ea352b0451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04d5a35a610e8a0fdb0409209abab30') in 0.128341 seconds
-  Import took 0.130940 seconds .
+  path: Assets/Scripts
+  artifactKey: Guid(8fdb1d8572372b34ebf34ead4bd33cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(8fdb1d8572372b34ebf34ead4bd33cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be40f0fea5b483ee295c9a95bdac8c0a') in 0.009617 seconds
+  Import took 0.012156 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Sprites/Bar.png
-  artifactKey: Guid(ca4d196960301774bbcae891dc2c9c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bar.png using Guid(ca4d196960301774bbcae891dc2c9c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30e4de1cdc0312d86867b45f3e83bc8') in 0.018473 seconds
-  Import took 0.020920 seconds .
+  Time since last request: 0.000539 seconds.
+  path: Assets/Scripts/Koi.cs
+  artifactKey: Guid(0ffd94725ac2d4547b56908e2c7a0bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Koi.cs using Guid(0ffd94725ac2d4547b56908e2c7a0bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b207c1d0659fbec248c5142a8b0e02fd') in 0.041925 seconds
+  Import took 0.044195 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000997 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.840 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.8 MB.
-System memory in use after: 86.8 MB.
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(8f7c5c45330b70d4ea975e06e2247e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(8f7c5c45330b70d4ea975e06e2247e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45fcd8190f3cce8c6205e40f74c823ba') in 0.006866 seconds
+  Import took 0.009611 seconds .
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2241.
-Total: 2.263800 ms (FindLiveObjects: 0.185100 ms CreateObjectMapping: 0.090300 ms MarkObjects: 1.903400 ms  DeleteObjects: 0.083900 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 5.164556 seconds.
+  path: Assets/Scripts/WaterColor.cs
+  artifactKey: Guid(5c8aa36368423ea499b7c886ce0dcb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WaterColor.cs using Guid(5c8aa36368423ea499b7c886ce0dcb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e8102bd85415a27acd26b3ab43f356') in 0.009524 seconds
+  Import took 0.012924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000741 seconds.
+  path: Assets/Scripts/WaterColor.cs
+  artifactKey: Guid(5c8aa36368423ea499b7c886ce0dcb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WaterColor.cs using Guid(5c8aa36368423ea499b7c886ce0dcb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e8102bd85415a27acd26b3ab43f356') in 0.004384 seconds
+  Import took 0.007461 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
